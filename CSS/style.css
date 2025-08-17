@@ -212,7 +212,8 @@ nav>button:hover {
 
 /*============================================ About Section Design ============================================*/
 #about {
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     padding-top: 77px;
 }
 
@@ -502,8 +503,10 @@ nav>button:hover {
 /*============================================ Contact from Section Design ============================================*/
 #contact {
     background-color: #f9f9f9;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     padding-top: 77px;
+    margin-bottom: 4vh;
 }
 
 #contact h1 {
